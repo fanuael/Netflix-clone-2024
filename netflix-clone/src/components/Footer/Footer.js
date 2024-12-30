@@ -18,7 +18,7 @@ const Footer = () => {
     <div className="footer-outer-container">
       <div className="footer-inner-container">
         <div className="footer-logo">
-          <img src="/path/to/logo.png" alt="Company Logo" className="footer-logo-img" />
+          <li><img src='https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg' alt='netflix logo' width='100px' /></li>
         </div>
         <div className="footer-icons">
           <FacebookIcon />
