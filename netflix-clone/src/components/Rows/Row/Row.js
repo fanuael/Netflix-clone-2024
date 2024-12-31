@@ -46,14 +46,7 @@ const Row = ({ title, fetchUrl, isLargeRow }) => {
   if (error) {
     return <div className="error">Error: {error}</div>;
   }
-  const opts = {
-    height: '390',
-    width:  "100%",
-    playerVars: {
-      autoplay: 1,
-    },
-  
- }
+
   return (
     <div className="row">
       <h2>{title}</h2>
