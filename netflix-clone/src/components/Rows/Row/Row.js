@@ -10,7 +10,6 @@ const Row = ({ title, fetchUrl, isLargeRow }) => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [trailerUrl, setTrailerUrl] = useState('');
-
   const handleClick = (movie) => {
     if (trailerUrl) {
       setTrailerUrl('');
